@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-color: hsl(0, 0%, 86%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.pai{
+    align-items: center;
+    background-color: hsl(0, 0%, 100%);
+    width: 700px;
+    height: 500px;
+    border-radius: 30px;
+    border-bottom-right-radius: 200px;
+    padding: 40px;
+    margin-bottom: 50px;
+}
+
+.preenchimento ul{
+    display: flex;
+    gap: 30px;
+    margin-top: 10px;
+    
+}
+
+.principal{
+    border-bottom: 1px solid hsl(0, 0%, 86%);
+    height: 125px;
+    width: 100%;
+    margin-bottom: 30px;
+
+}
+
+input{
+    font-size: 32px;
+    width: 130px;
+    padding-left: 15px;
+    border-radius: 5px;
+    border: 1px solid hsl(0, 0%, 86%);
+    cursor: pointer;
+    transition: 0.1s ease-in-out;
+}
+
+input:hover{
+    border: 1px solid hsl(259, 100%, 65%);
+    transform: scale(1.02);
+}
+
+li p{
+    font-size: 12px;
+    letter-spacing: 4px;
+    margin-bottom: 8px;
+}
+
+.erro{
+    letter-spacing: 0;
+    font-style: italic;
+    text-align: center;
+    color: hsl(0, 100%, 67%);
+    width: 130px;
+    line-height: 13px;
+
+}
+
+.resultado{
+    line-height:90px;
+    font-size: 80px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.resultado span{
+    color: hsl(259, 100%, 65%);
+
+}
+
+.botao{
+    text-align: end;
+}
+
+.botao svg{
+    background-color: hsl(259, 100%, 65%);
+    height: 80px;
+    width: 80px;
+    padding:15px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.botao svg:hover{
+    background-color: black;
+    transform: scale(1.1);
+}
+
+.atribuicao{
+    width: 300px;
+    text-align: center;
+}
+
+.atribuicao a{
+    color: black;
+}
+
+button{
+    border: none;
+    background-color: hsl(0, 0%, 100%);
+}

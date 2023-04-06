@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./src/style.css">
+  <link rel="stylesheet" href="./src/responsivo.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap"
+    rel="stylesheet">
+
+  <title>Frontend Mentor | Age calculator app</title>
+
+</head>
+
+<body>
+    <div class="pai">
+      <div class="principal">
+        <div class="preenchimento">
+          <ul>
+            <li>
+              <div class="dia-inserido">
+                <P id="pdia">DIA</P>
+                <input type="text" id="dia" placeholder="DD">
+                <p class="erro dia"></p>
+              </div>
+            </li>
+            <li>
+              <div class="mes-inserido">
+                <P id="pmes">MÊS</P>
+                <input type="text" id="mes" placeholder="MM">
+                <p class="erro mes"></p>
+              </div>
+            </li>
+            <li>
+              <div class="ano-inserido">
+                <P id="pano">ANO</P>
+                <input type="text" id="ano" placeholder="YYYY">
+                <p class="erro ano"></p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="botao">
+          <button onclick="enviar()">
+            <svg xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 46 44">
+              <g fill="none" stroke="#FFF" stroke-width="2">
+                <path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44" />
+              </g>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div class="resultado">
+        <ul>
+          <li><span>- -</span> anos</li>
+          <li><span>- -</span> meses</li>
+          <li><span>- -</span> dias</li>
+        </ul>
+      </div>
+    </div>
+
+  <footer>
+    <div class="atribuicao">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Pedro Henrique</a>.
+    </div>
+  </footer>
+  <script src="./src/script.js"></script>
+</body>
+
+</html>
