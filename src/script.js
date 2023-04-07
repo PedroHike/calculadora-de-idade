@@ -33,7 +33,7 @@ function enviar(diaDeNascimento, mesDeNascimento, anoDeNascimento) {
     // 'se' idade em meses menor que 0 'ou' idade em meses, 'em valor e tipo =' 0 'e' idade em dias menor que 0
     if (idadeEmMeses < 0 || (idadeEmMeses === 0 && idadeEmDias < 0)) {
         idadeEmAnos--;
-        idadeEmMeses += 12;
+        idadeEmMeses += 11;
 
         resultado[0].innerHTML = idadeEmAnos;
         resultado[1].innerHTML = idadeEmMeses;
