@@ -50,6 +50,7 @@ function enviar(diaDeNascimento, mesDeNascimento, anoDeNascimento) {
             idadeEmMeses += 11;
             
             resultado[2].innerHTML = idadeEmDias;
+            resultado[1].innerHTML = idadeEmMeses;
         }
 
         inputDia.style.borderColor = 'hsl(0, 0%, 86%)'
