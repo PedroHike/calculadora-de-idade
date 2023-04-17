@@ -28,6 +28,10 @@ function enviar(diaDeNascimento, mesDeNascimento, anoDeNascimento) {
     var idadeEmDias = diaAtual - diaDeNascimento;
 
     var resultado = document.querySelectorAll('.resultado span')
+    
+    resultado[0].innerHTML = idadeEmAnos;
+    resultado[1].innerHTML = idadeEmMeses;
+    resultado[2].innerHTML = idadeEmDias;
 
 
     // 'se' idade em meses menor que 0 'ou' idade em meses, 'em valor e tipo =' 0 'e' idade em dias menor que 0
