@@ -44,7 +44,7 @@ function enviar(diaDeNascimento, mesDeNascimento, anoDeNascimento) {
         resultado[2].innerHTML = idadeEmDias;
         
 
-        if (idadeEmDias < 0) {
+        if (idadeEmDias < 0 || idadeEmDias < 0 && idadeEmMeses > 0) {
             var ultimoDiaDoMesAnterior = new Date(anoAtual, mesAtual - 1, 0).getDate();
             idadeEmDias += ultimoDiaDoMesAnterior;
             idadeEmMeses --;
